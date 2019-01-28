@@ -35,7 +35,7 @@ def prob2():
         difference= x-y
         product= x*y
         quotient= x/y
-
+        # KEY: Close, but the expected result was to return a dictionary, not an array :-(
         return {sum,difference,product,quotient}
 
     print(do_the_math(num1,num2))
